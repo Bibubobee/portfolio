@@ -1,1 +1,0 @@
-// TODO: Implementar layout para cada juego, debería recibir por parametros el contenido que utilizará
