@@ -20,12 +20,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@customTypes/*": ["./src/types/*"]
+      "$customTypes/*": ["./src/types/*"],
     }
   },
   "include": [
     "src",
-    "declaration.d.ts"
+    "declaration.d.ts",
   ]
 }

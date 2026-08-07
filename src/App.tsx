@@ -1,15 +1,14 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
-  Timeline,
-  Expertise,
-  Project,
   Contact,
   Navigation,
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import ProjectBlock from "./components/ProjectBlock/ProjectBlock";
+import { my_data } from "./assets/my_data";
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -32,7 +31,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
-            <Project/>
+            <ProjectBlock projects={my_data.games}/>
             <Contact/>
         </FadeIn>
         <Footer />
