@@ -30,9 +30,8 @@ function App() {
     <div className={`main-container light-mode`}>
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
-            <Main/>
+            <Main data={my_data.introduction}/>
             <ProjectBlock projects={my_data.games}/>
-            <Contact/>
         </FadeIn>
         <Footer />
     </div>
