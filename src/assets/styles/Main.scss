@@ -21,6 +21,15 @@
     text-align: left;
     z-index: 2;
 
+    .contact {
+        font-size: large;
+    }
+
+    .contact a {
+        color: #383938;
+        text-decoration: underline;
+    }
+
     .social_icons {
         display: flex;
         flex-direction: row;
@@ -64,7 +73,7 @@
 }
 
 h1 .h1-accent {
-    color: #60f45e;
+    color: var(--light-accent-color);
 }
 
 @media screen {

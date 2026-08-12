@@ -1,4 +1,5 @@
 export type Introduction = {
-    title: string
-    subtitle: string
+    title: string;
+    subtitle: string;
+    contact: string;
 }

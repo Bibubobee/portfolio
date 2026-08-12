@@ -22,6 +22,8 @@ function Main({ data }: { data: Introduction}) {
           </div>
           <h1 dangerouslySetInnerHTML={{__html: data.title}}></h1>
           <p>{data.subtitle}</p>
+          <br/>
+          <p className="contact" dangerouslySetInnerHTML={{__html: data.contact}} />
 
           <div className="mobile_social_icons">
             <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>

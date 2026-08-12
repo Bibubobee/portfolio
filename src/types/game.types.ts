@@ -4,4 +4,5 @@ export type Game = {
     full_desc: string;
     img_src: string;
     external_link: string;
+    my_work: string;
 };
