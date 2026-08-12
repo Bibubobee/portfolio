@@ -13,6 +13,8 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
+import '../assets/styles/Navigation.scss'
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = [['About', 'main'], ['Projects', 'projects']];
@@ -45,11 +47,11 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
-    console.log(section)
+    // console.log(section)
     const expertiseElement = document.getElementById(section);
     if (expertiseElement) {
       expertiseElement.scrollIntoView({ behavior: 'smooth' });
-      console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
+      // console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
     } else {
       console.error('Element with id "expertise" not found');  // Debugging: Log error if element is not found
     }
@@ -85,7 +87,7 @@ function Navigation({parentToChild, modeChange}: any) {
           >
             <MenuIcon />
           </IconButton>
-          <h2>Gabriel Ortiz</h2>
+          <Link to='/'>Gabriel Ortiz</Link>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>

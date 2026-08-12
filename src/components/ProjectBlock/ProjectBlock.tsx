@@ -8,8 +8,8 @@ function ProjectBlock({ projects }: { projects: Game[]}) {
         <section id="projects" className="projects-block">
             <h1>Personal Projects</h1>
             <div className="projects-grid">
-                {projects.map((project) => (
-                    <ProjectCard project_data={project} />
+                {projects.map((project, index) => (
+                    <ProjectCard project_data={project} index={index} />
                 ))}
             </div>
         </section>

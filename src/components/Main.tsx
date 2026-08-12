@@ -5,9 +5,7 @@ import '../assets/styles/Main.scss';
 import { Introduction } from "$customTypes/intro.types";
 
 function Main({ data }: { data: Introduction}) {
-  console.log(data.title)
   const parser = new DOMParser();
-  console.log(parser.parseFromString(data.title, "text/html"))
 
   return (
     <div className="container">
