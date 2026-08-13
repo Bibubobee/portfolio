@@ -1,3 +1,26 @@
 .game-page {
     position: relative;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.title-container {
+    height: 25rem;
+    display: flex;
+
+    .title-text {
+        width: 50%;
+        margin: auto 0;
+    }
+
+    .title-text h1 {
+        position: absolute;
+        top: 0;
+    }
+}
+
+.desc-container {
+    p {
+        width: 50%;
+    }
 }

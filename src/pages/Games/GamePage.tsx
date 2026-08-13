@@ -8,9 +8,18 @@ function GamePage({ game_data }: { game_data: Game[] }) {
     const idx = game_id ? Number(game_id) : 0
     const game: Game = game_data[idx]
     return (
-        <section className="container game-page">
-            <h1>{game.title}</h1>
-            <h2>Holis</h2>
+        <section className="container">
+            <div className="game-page">
+                <div className="title-container">
+                    <div className="title-text">
+                        <h1>{game.title}</h1>
+                        <p>{game.full_desc}</p>
+                    </div>
+                </div>
+                <div className="desc-container">
+                    <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
+                </div>
+            </div>
         </section>
     )
 }

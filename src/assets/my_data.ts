@@ -18,10 +18,10 @@ export const my_data = {
     {
       title: "Fish Catcher",
       small_desc: "A game based on old LCD games that I'm making to learn about game design for arcade-style games.",
-      full_desc: "",
+      full_desc: "Remember those old LCD electronic games? Well I fell in love with them after trying out the Game & Watch Gallery series and decided to make this game to learn what makes them so fun and addictive while also being really simple.",
       img_src: "",
       external_link: "",
-      my_work: ""
+      my_work: "Besides the art I did everything from this game, which includes: <ul><li>Game Design for everything in the game and direction for the artistic choices.</li><li>All gameplay systems: Player controls, spawning system, game balance, event system, progression, unlockables and enemy behavior.</li><li>Creation of sound and visual effects.</li><li>Implementation of the art and sounds into the Engine.</li></ul>"
     },
     {
       title: "Under Roots",
