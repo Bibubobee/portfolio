@@ -13,10 +13,11 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                 <div className="title-container">
                     <div className="title-text">
                         <h1>{game.title}</h1>
-                        <p>{game.full_desc}</p>
+                        <p dangerouslySetInnerHTML={{__html: game.full_desc}}></p>
                     </div>
                 </div>
                 <div className="desc-container">
+                    <h2>My role in this</h2>
                     <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
                 </div>
             </div>

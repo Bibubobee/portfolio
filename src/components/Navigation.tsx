@@ -87,7 +87,7 @@ function Navigation({parentToChild, modeChange}: any) {
           >
             <MenuIcon />
           </IconButton>
-          <Link to='/'>Gabriel Ortiz</Link>
+          <Link to='/portfolio'>Gabriel Ortiz</Link>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>

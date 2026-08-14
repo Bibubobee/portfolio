@@ -5,17 +5,20 @@
 }
 
 .title-container {
-    height: 25rem;
+    height: fit-content;
     display: flex;
 
     .title-text {
         width: 50%;
-        margin: auto 0;
     }
 
     .title-text h1 {
         position: absolute;
         top: 0;
+    }
+    
+    .title-text p {
+        margin: 10rem 0;
     }
 }
 

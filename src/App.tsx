@@ -33,7 +33,7 @@ function App() {
         <FadeIn transitionDuration={700}>
             {/* Routes */}
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/portfolio" element={<Home/>} />
                 <Route path="/game/:game_id" element={<GamePage game_data={my_data.games}/>} />
             </Routes>
         </FadeIn>
