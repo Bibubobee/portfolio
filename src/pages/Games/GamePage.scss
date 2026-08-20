@@ -8,17 +8,30 @@
     height: fit-content;
     display: flex;
 
-    .title-text {
+    .game-intro {
         width: 50%;
     }
 
-    .title-text h1 {
+    .game-intro p {
+        margin: 10rem 0;
+    }
+
+    .game-title-block {
+        width: 35%;
+        display: flex;
+        margin-right: 5rem;
+        flex-direction: column;
+    }
+
+    .game-title-block h1 {
         position: absolute;
         top: 0;
     }
-    
-    .title-text p {
-        margin: 10rem 0;
+
+    .game-title-block iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        margin: auto 0;
     }
 }
 

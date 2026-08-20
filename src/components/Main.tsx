@@ -10,9 +10,9 @@ function Main({ data }: { data: Introduction}) {
   return (
     <div className="container">
       <div id="main" className="about-section">
-        <div className="image-wrapper">
+        {/* <div className="image-wrapper">
           <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
-        </div>
+        </div> */}
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/bibubobee" target="_blank" rel="noreferrer"><GitHubIcon/></a>

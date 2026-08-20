@@ -5,4 +5,6 @@ export type Game = {
     img_src: string;
     external_link: string;
     my_work: string;
+    video_url: string;
+    example_imgs: string[];
 };
