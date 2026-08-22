@@ -20,9 +20,16 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                         <p dangerouslySetInnerHTML={{__html: game.full_desc}}></p>
                     </div>
                 </div>
-                <div className="desc-container">
-                    <h2>My role in this</h2>
-                    <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
+                <div className="game-body">
+                    <div className="my-role">
+                        <h2>My role in this</h2>
+                        <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
+                    </div>
+                    <div className="game-images">
+                        {game.example_imgs.map((img, _index) => (
+                            <img alt='game-img' src={img}></img>
+                        ))}
+                    </div>           
                 </div>
             </div>
         </section>

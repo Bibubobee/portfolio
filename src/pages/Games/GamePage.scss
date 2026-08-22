@@ -35,8 +35,70 @@
     }
 }
 
-.desc-container {
-    p {
-        width: 50%;
+.game-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.my-role {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.game-images {
+    width: 50%;
+    align-items: start;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: right;
+
+    img {
+        height: 15em;
+        object-fit: contain;
+    }
+}
+
+@media screen {
+    @media (max-width: 700px) {
+        .game-page {
+            padding: 0 2rem;
+        }
+
+        .title-container {
+            margin-top: 80px;
+            display: block;
+
+            .game-intro {
+                width: 100%;
+                p {
+                    margin: 1rem 0;
+                }
+            }
+
+            .game-title-block {
+                width: 100%;
+                margin: 0
+            }
+
+            .game-title-block h1 {
+                position: inherit;
+            }
+        }
+
+        .game-body {
+            display: block;
+        }
+
+        .my-role {
+            width: 100%;
+        }
+  
+        .game-images {
+            width: 100%;
+            display: block;
+        }
     }
 }

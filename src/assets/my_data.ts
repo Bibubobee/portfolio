@@ -27,7 +27,7 @@ export const my_data = {
       external_link: "",
       my_work: "Besides the art I did everything for this game, which includes: <ul><li>Game Design and direction.</li><li>Programming of all gameplay systems: Player controls, spawning system, game balance, event system, progression, ranking, unlockables and enemy behavior.</li><li>Creation of sound and visual effects.</li><li>Implementation of art and sounds into the Engine.</li></ul>",
       video_url: "https://youtube.com/embed/0H7oEficKRI?si=ncOoYe2mJVKrySMf",
-      example_imgs: [],
+      example_imgs: [clockCover, rm3Cover ],
     },
     {
       title: "Under Roots",
