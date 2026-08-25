@@ -14,14 +14,14 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import '../assets/styles/Navigation.scss'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = [['About', 'main'], ['Projects', 'projects']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
-  const {mode} = parentToChild;
+  // const {mode} = parentToChild;
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -46,6 +46,7 @@ function Navigation({parentToChild, modeChange}: any) {
     };
   }, []);
 
+  const navigate = useNavigate();
   const scrollToSection = (section: string) => {
     // console.log(section)
     const expertiseElement = document.getElementById(section);
@@ -53,7 +54,7 @@ function Navigation({parentToChild, modeChange}: any) {
       expertiseElement.scrollIntoView({ behavior: 'smooth' });
       // console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
     } else {
-      console.error('Element with id "expertise" not found');  // Debugging: Log error if element is not found
+      navigate('/portfolio');
     }
   };
 

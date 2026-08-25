@@ -2,6 +2,7 @@ import clockCover from './images/clock_cover.png'
 import rm3Cover from './images/rm3_cover.png'
 import spellrainCover from './images/spell_cover.png'
 
+// TODO: Agregar texto final a todas las secciones
 export const my_data = {
   introduction: {
     title: "Hi! I'm <span class='h1-accent'>Gabriel Ortiz</span>",
@@ -76,7 +77,7 @@ export const my_data = {
       img_src: rm3Cover,
       external_link: "",
       my_work: "",
-      video_url: "",
+      video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=zsmirU76mjZUbv8n",
       example_imgs: [],
     }
   ]
