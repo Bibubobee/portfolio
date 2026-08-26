@@ -17,7 +17,7 @@
     <ul>
         <li>Mouse controls (basic movement, grabbing and putting sticks back into place).</li>
         <li>Random events system that chooses which event to trigger.</li> 
-        <li>Difficulty progression system with resources (also known as Scriptable Objects in Unity). Each round is saved in a resource with its dedicated data, allowing for fast and simple iteration of the game's balance.</li>
+        <li>Difficulty progression system with Godot's Resources (also known as Scriptable Objects in Unity). Each round is saved in a resource with its dedicated data, allowing for fast and simple iteration of the game's balance.</li>
         <li>Win and lose conditions.</li>
         <li>Event activation controller with reusable architecture (Orchestration with resources for each event).</li>
         <li>Clock slots behavior: Created a script that allowed to change the amount of slots for the clock and reflect that immediately in-engine.</li>
@@ -32,13 +32,45 @@
 
 **my_work:** "Besides the art I did everything for this game, which includes: 
 <ul>
-    <li>Game Design and direction.</li>
-    <li>Programming of all gameplay systems: Player controls, spawning system, game balance, event system, progression, ranking, unlockables and enemy behavior.</li>
-    <li>Creation of sound and visual effects.</li>
+    <li>Game Design. A lot of iteration on ideas to find out which ones where the most fun plus easier to do.</li>
+    <li>Programming of all gameplay systems: 
+    <ul>
+        <li>Player controls.</li>
+        <li>Spawning system that takes into account rounds, spawn probabilites and rules to prevent impossible or bothersome situations.</li> 
+        <li>Game balance with custom spreadsheet imports.</li> 
+        <li>Round-based progression with Godot's Resource system.</li> 
+        <li>Unlockables manager that listens to game events and checks if an objective has been completed.</li>
+        <li>Enemy behavior.</li>
+    </ul>
+    <li>UI/UX programming with Godot's Control nodes.</li>
+    <li>Various polishing such as squish and stretch for movement and UI transition animations</li>
+    <li>Creation of sounds, some with traditional capturing methods and others with the help of programs such as Famitracker or ChipTone.</li>
     <li>Implementation of art and sounds into the Engine.</li>
 </ul>"
 
 ## Under Roots
+
+**small_desc:** "3D Action Platformer inspired by the Ape Escape series where you catch robot bugs, cut plants and sneak around to finish levels."
+
+**full_desc:** "Have you ever played Ape Escape? Well, this game is heavily inspired on it. The game features big, beautiful worlds where you play as a frog that captures robot-insects gone rogue.<br/><br/> For this game I took the role of Lead Programmer, so I was in charge of programming and coordinating systems for a team of 2 developers besides myself."
+
+**my_work:** " 
+<ul>
+    <li>Programming for player character controller: 
+    <ul>
+        <li>Player movement that allows easy customization for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>
+        <li>Bug net gadget that allows for command inputs like those seen in fighting games.</li> 
+        <li>Scissors gadget.</li> 
+        <li>Radar gadget.</li> 
+    </ul>
+    <li>Architecture design and diagrams for the following gameplay systems:</li>
+    <ul>
+        <li>Save manager.</li>
+        <li>Gadget system TODO: EXPLICAR MAS.</li>
+        <li>hay otro mas...</li>
+    </ul>
+    
+</ul>"
 
 ## Lilly & Willy
 
