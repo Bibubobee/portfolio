@@ -54,7 +54,11 @@
 
     img {
         height: 15em;
+        transition: transform .2s;
         object-fit: contain;
+    }
+    img:hover {
+        transform: scale(1.05);
     }
 }
 

@@ -1,6 +1,7 @@
 import "./ImageModal.scss"
 
 export function openModal(event: React.MouseEvent<HTMLImageElement, MouseEvent>) {
+    // TODO: Ponerle alguna especie de animacion?
     const imgObj = event.currentTarget;
     if (!imgObj) return;
 
