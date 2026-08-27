@@ -30,7 +30,7 @@ export const my_data = {
       img_src: "",
       external_link: "",
       my_work: "Besides the art I did everything for this game, which includes:  <ul>     <li>Game Design. A lot of iteration on ideas to find out which ones where the most fun plus easier to do.</li>     <li>Programming of all gameplay systems:      <ul>         <li>Player controls.</li>         <li>Spawning system that takes into account rounds, spawn probabilites and rules to prevent impossible or bothersome situations.</li>          <li>Game balance with custom spreadsheet imports.</li>          <li>Round-based progression with Godot's Resource system.</li>          <li>Unlockables manager that listens to game events and checks if an objective has been completed.</li>         <li>Enemy behavior.</li>     </ul>     <li>UI/UX programming with Godot's Control nodes.</li>     <li>Various polishing such as squish and stretch for movement and UI transition animations</li>     <li>Creation of sounds, some with traditional capturing methods and others with the help of programs such as Famitracker or ChipTone.</li>     <li>Implementation of art and sounds into the Engine.</li> </ul>",
-      video_url: "https://youtube.com/embed/0H7oEficKRI?si=ncOoYe2mJVKrySMf",
+      video_url: "https://youtube.com/embed/vQTBGV1yfN8?si=uv3sAUiJTWW69N8z",
       example_imgs: [clockCover, rm3Cover ],
     },
     {
@@ -40,7 +40,7 @@ export const my_data = {
       img_src: "",
       external_link: "",
       my_work: "<ul>     <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>     <li>Programming for player character:      <ul>         <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>         <li>Componentization of player animation scripts to increase readability and bug tracking.</li>         <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li>          <li>Scissors gadget: Changes player stance to cut plants in different heights.</li>          <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>         <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li>      </ul>     <li>Architecture design and documentation of the following gameplay systems:</li>     <ul>         <li>Save manager.</li>         <li>Gadget system coordination with HUD and resources.</li>         <li>Player states such as crouch, walk, airborne and gadgets.</li>     </ul> </ul>",
-      video_url: "",
+      video_url: "https://youtube.com/embed/Qf7V5uSUk7E?si=FwOSYu23HBa181xs",
       example_imgs: [],
     },
     {

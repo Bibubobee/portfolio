@@ -1,3 +1,4 @@
+/// TODO: Agregar negritas, subrayado y otras decoraciones para volver más interesante la lectura.
 # Proyectos
 ## Watch my Clok
 **small_desc:** "Very short challenge where you have to keep a clock from breaking by picking up their falling pieces. Made for the 2026 GOTM game jam."
@@ -76,6 +77,31 @@
 </ul>"
 
 ## Lilly & Willy
+
+**small_desc:** "2D Platformer where you and a friend control 2 rats to help them escape a laboratory."
+
+**full_desc:** "Hs.<br/><br/> F."
+
+**my_work:** " 
+<ul>
+    <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>
+    <li>Programming for player character: 
+    <ul>
+        <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>
+        <li>Componentization of player animation scripts to increase readability and bug tracking.</li>
+        <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li> 
+        <li>Scissors gadget: Changes player stance to cut plants in different heights.</li> 
+        <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>
+        <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li> 
+    </ul>
+    <li>Architecture design and documentation of the following gameplay systems:</li>
+    <ul>
+        <li>Save manager.</li>
+        <li>Gadget system coordination with HUD and resources.</li>
+        <li>Player states such as crouch, walk, airborne and gadgets.</li>
+    </ul>
+    
+</ul>"
 
 ## Bajo Tierra
 
