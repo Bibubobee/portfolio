@@ -1,6 +1,9 @@
 import clockCover from './images/clock_cover.png'
 import rm3Cover from './images/rm3_cover.png'
 import spellrainCover from './images/spell_cover.png'
+import lillyWillyCover from './images/lilly_willy_cover.png'
+// import bajoTierraGif from './images/BajoTierra_Cover.gif'
+import bajoTierraCover from './images/BajoTierra_TITLE.png'
 
 // TODO: Agregar texto final a todas las secciones
 export const my_data = {
@@ -33,10 +36,10 @@ export const my_data = {
     {
       title: "Under Roots",
       small_desc: "3D Action Platformer inspired by the Ape Escape series where you catch robot bugs, cut plants and sneak around to finish levels.",
-      full_desc: "",
+      full_desc: "Have you ever played Ape Escape? Well, this game is heavily inspired on it. The game features big, beautiful worlds where you play as a frog that captures robot-insects gone rogue.<br/><br/> For this game I took the role of Lead Programmer, so I was in charge of programming and coordinating systems for a team of 2 developers besides myself.",
       img_src: "",
       external_link: "",
-      my_work: "",
+      my_work: "<ul>     <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>     <li>Programming for player character:      <ul>         <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>         <li>Componentization of player animation scripts to increase readability and bug tracking.</li>         <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li>          <li>Scissors gadget: Changes player stance to cut plants in different heights.</li>          <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>         <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li>      </ul>     <li>Architecture design and documentation of the following gameplay systems:</li>     <ul>         <li>Save manager.</li>         <li>Gadget system coordination with HUD and resources.</li>         <li>Player states such as crouch, walk, airborne and gadgets.</li>     </ul> </ul>",
       video_url: "",
       example_imgs: [],
     },
@@ -44,7 +47,7 @@ export const my_data = {
       title: "Lilly & Willy",
       small_desc: "2D Platformer where you and a friend control 2 rats to help them escape a laboratory.",
       full_desc: "",
-      img_src: "",
+      img_src: lillyWillyCover,
       external_link: "",
       my_work: "",
       video_url: "",
@@ -54,7 +57,7 @@ export const my_data = {
       title: "Bajo Tierra",
       small_desc: "2D Platformer where you can bury on the ground and ceiling to reach new places. Made for my thesis.",
       full_desc: "",
-      img_src: "",
+      img_src: bajoTierraCover,
       external_link: "",
       my_work: "",
       video_url: "",

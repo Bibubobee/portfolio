@@ -56,18 +56,21 @@
 
 **my_work:** " 
 <ul>
-    <li>Programming for player character controller: 
+    <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>
+    <li>Programming for player character: 
     <ul>
-        <li>Player movement that allows easy customization for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>
-        <li>Bug net gadget that allows for command inputs like those seen in fighting games.</li> 
-        <li>Scissors gadget.</li> 
-        <li>Radar gadget.</li> 
+        <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>
+        <li>Componentization of player animation scripts to increase readability and bug tracking.</li>
+        <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li> 
+        <li>Scissors gadget: Changes player stance to cut plants in different heights.</li> 
+        <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>
+        <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li> 
     </ul>
-    <li>Architecture design and diagrams for the following gameplay systems:</li>
+    <li>Architecture design and documentation of the following gameplay systems:</li>
     <ul>
         <li>Save manager.</li>
-        <li>Gadget system TODO: EXPLICAR MAS.</li>
-        <li>hay otro mas...</li>
+        <li>Gadget system coordination with HUD and resources.</li>
+        <li>Player states such as crouch, walk, airborne and gadgets.</li>
     </ul>
     
 </ul>"
