@@ -70,7 +70,7 @@ export const my_data = {
       img_src: spellrainCover,
       external_link: "",
       my_work: "",
-      video_url: "",
+      video_url: "https://youtube.com/embed/JzEF_pYofhE?si=ZL3hrjoOp8M8qmXv",
       example_imgs: [],
     },
     {
@@ -80,7 +80,7 @@ export const my_data = {
       img_src: rm3Cover,
       external_link: "",
       my_work: "",
-      video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=zsmirU76mjZUbv8n",
+      video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=nSkolgMtWz41c3iN",
       example_imgs: [],
     }
   ]

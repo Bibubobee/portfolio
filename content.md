@@ -80,27 +80,20 @@
 
 **small_desc:** "2D Platformer where you and a friend control 2 rats to help them escape a laboratory."
 
-**full_desc:** "Hs.<br/><br/> F."
+**full_desc:** "Lilly & Willy is a 2 player platformer about two sibling mice trying to escape from a laboratory full of traps and dangers. Push buttons, bounce on springs and avoid hazards to reach the end. Oh, and don't forget to grab some cheese along the way."
 
 **my_work:** " 
 <ul>
-    <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>
-    <li>Programming for player character: 
+    <li>Level design TODO: AGREGAR MAS A TODOS ESTOS PUNTOS.</li>
+    <li>Programming for the following: 
     <ul>
-        <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>
-        <li>Componentization of player animation scripts to increase readability and bug tracking.</li>
-        <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li> 
-        <li>Scissors gadget: Changes player stance to cut plants in different heights.</li> 
-        <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>
-        <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li> 
+        <li>Player movement.</li>
+        <li>Pushing and bouncing components.</li>
+        <li>Behavior for basic enemies.</li> 
+        <li>Button and block system.</li> 
+        <li>Save data system.</li>
+        <li>Level unlocks system.</li> 
     </ul>
-    <li>Architecture design and documentation of the following gameplay systems:</li>
-    <ul>
-        <li>Save manager.</li>
-        <li>Gadget system coordination with HUD and resources.</li>
-        <li>Player states such as crouch, walk, airborne and gadgets.</li>
-    </ul>
-    
 </ul>"
 
 ## Bajo Tierra
