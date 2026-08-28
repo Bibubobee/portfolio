@@ -44,6 +44,7 @@
 
 .game-images {
     width: 50%;
+    height: 100%;
     align-items: start;
     text-align: right;
     display: flex;
@@ -51,15 +52,6 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: right;
-
-    img {
-        height: 15em;
-        transition: transform .2s;
-        object-fit: contain;
-    }
-    img:hover {
-        transform: scale(1.05);
-    }
 }
 
 @media screen {

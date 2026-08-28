@@ -7,4 +7,5 @@ export type Game = {
     my_work: string;
     video_url: string;
     example_imgs: string[];
+    gif_for_ex: string[];
 };

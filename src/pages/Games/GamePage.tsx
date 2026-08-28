@@ -1,7 +1,8 @@
 import { Game } from "$customTypes/game.types";
 import { useParams } from "react-router-dom";
 import './GamePage.scss'
-import ImageModal, { openModal } from "../../components/ImageModal/ImageModal";
+import ImageModal from "../../components/ImageModal/ImageModal";
+import ImageWithGIF from "../../components/ImageWithGIF/ImageWithGIF";
 
 // TODO: Implementar layout para cada juego, debería recibir por parametros el contenido que utilizará
 function GamePage({ game_data }: { game_data: Game[] }) {
@@ -9,7 +10,6 @@ function GamePage({ game_data }: { game_data: Game[] }) {
     const idx = game_id ? Number(game_id) : 0;
     const game: Game = game_data[idx];
     
-    // TODO: Para imagenes extra, permitir GIFs
     // TODO: Traer componente de video desde web slime
     // TODO: Agregar bloque de tiempo dedicado al proyecto, tamaño del equipo, rol que tuve y link si tiene
     return (
@@ -30,8 +30,8 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                         <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
                     </div>
                     <div className="game-images">
-                        {game.example_imgs.map((img, _index) => (
-                            <img alt='game-img' src={img} onClick={openModal}></img>
+                        {game.example_imgs.map((img, index) => (
+                            <ImageWithGIF image={img} gif={game.gif_for_ex[index]} />
                         ))}
                     </div>           
                 </div>

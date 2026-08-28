@@ -2,7 +2,7 @@ import clockCover from './images/clock_cover.png'
 import rm3Cover from './images/rm3_cover.png'
 import spellrainCover from './images/spell_cover.png'
 import lillyWillyCover from './images/lilly_willy_cover.png'
-// import bajoTierraGif from './images/BajoTierra_Cover.gif'
+import bajoTierraGif from './images/BajoTierra_Cover.gif'
 import bajoTierraCover from './images/BajoTierra_TITLE.png'
 
 // TODO: Agregar texto final a todas las secciones
@@ -22,6 +22,7 @@ export const my_data = {
       my_work: "<ul>     <li>Game design and direction. Aside from bringing the initial concept of the game, I was in charge of leading the project. This meant:     <ul>          <li>Explaining everything that I wanted from the game</li>         <li>Making sure that everyone knew what they had to do</li>         <li>Make quick decisions about the art, music and mechanics so that they fit my idea.</li>         <li>Most important of all, listening the feedback and ideas from my team and integrating them into my vision.</li>     </ul>     <li>Programming for the following:      <ul>         <li>Mouse controls (basic movement, grabbing and putting sticks back into place).</li>         <li>Random events system that chooses which event to trigger.</li>          <li>Difficulty progression system with resources (also known as Scriptable Objects in Unity). Each round is saved in a resource with its dedicated data, allowing for fast and simple iteration of the game's balance.</li>         <li>Win and lose conditions.</li>         <li>Event activation controller with reusable architecture (Orchestration with resources for each event).</li>         <li>Clock slots behavior: Created a script that allowed to change the amount of slots for the clock and reflect that immediately in-engine.</li>         <li>Stick and Second Hand behavior: Sticks drop in a random interval and can be attached when close enough. Second hand moves at a tick speed in a direction which can be changed during runtime.</li>     </ul> </ul>",
       video_url: "",
       example_imgs: [],
+      gif_for_ex: []
     },
     {
       title: "Fish Catcher",
@@ -31,7 +32,8 @@ export const my_data = {
       external_link: "",
       my_work: "Besides the art I did everything for this game, which includes:  <ul>     <li>Game Design. A lot of iteration on ideas to find out which ones where the most fun plus easier to do.</li>     <li>Programming of all gameplay systems:      <ul>         <li>Player controls.</li>         <li>Spawning system that takes into account rounds, spawn probabilites and rules to prevent impossible or bothersome situations.</li>          <li>Game balance with custom spreadsheet imports.</li>          <li>Round-based progression with Godot's Resource system.</li>          <li>Unlockables manager that listens to game events and checks if an objective has been completed.</li>         <li>Enemy behavior.</li>     </ul>     <li>UI/UX programming with Godot's Control nodes.</li>     <li>Various polishing such as squish and stretch for movement and UI transition animations</li>     <li>Creation of sounds, some with traditional capturing methods and others with the help of programs such as Famitracker or ChipTone.</li>     <li>Implementation of art and sounds into the Engine.</li> </ul>",
       video_url: "https://youtube.com/embed/vQTBGV1yfN8?si=uv3sAUiJTWW69N8z",
-      example_imgs: [clockCover, rm3Cover ],
+      example_imgs: [bajoTierraCover, rm3Cover ],
+      gif_for_ex: [bajoTierraGif, null]
     },
     {
       title: "Under Roots",
@@ -42,6 +44,7 @@ export const my_data = {
       my_work: "<ul>     <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>     <li>Programming for player character:      <ul>         <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>         <li>Componentization of player animation scripts to increase readability and bug tracking.</li>         <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li>          <li>Scissors gadget: Changes player stance to cut plants in different heights.</li>          <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>         <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li>      </ul>     <li>Architecture design and documentation of the following gameplay systems:</li>     <ul>         <li>Save manager.</li>         <li>Gadget system coordination with HUD and resources.</li>         <li>Player states such as crouch, walk, airborne and gadgets.</li>     </ul> </ul>",
       video_url: "https://youtube.com/embed/Qf7V5uSUk7E?si=FwOSYu23HBa181xs",
       example_imgs: [],
+      gif_for_ex: []
     },
     {
       title: "Lilly & Willy",
@@ -52,6 +55,7 @@ export const my_data = {
       my_work: "",
       video_url: "",
       example_imgs: [],
+      gif_for_ex: []
     },
     {
       title: "Bajo Tierra",
@@ -62,6 +66,7 @@ export const my_data = {
       my_work: "",
       video_url: "",
       example_imgs: [],
+      gif_for_ex: []
     },
     {
       title: "SPELLRAIN",
@@ -72,6 +77,7 @@ export const my_data = {
       my_work: "",
       video_url: "https://youtube.com/embed/JzEF_pYofhE?si=ZL3hrjoOp8M8qmXv",
       example_imgs: [],
+      gif_for_ex: []
     },
     {
       title: "Rhythm Match-3",
@@ -82,6 +88,7 @@ export const my_data = {
       my_work: "",
       video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=nSkolgMtWz41c3iN",
       example_imgs: [],
+      gif_for_ex: []
     }
   ]
 }

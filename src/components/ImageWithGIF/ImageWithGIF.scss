@@ -1,0 +1,16 @@
+.game-img, .game-gif {
+    height: 15em;
+    transition: transform .2s;
+    object-fit: contain;
+}
+
+.game-img:hover, .game-gif:hover {
+    transform: scale(1.05);
+}
+
+.active {
+    display: inherit;
+}
+.inactive {
+    display: none;
+}
