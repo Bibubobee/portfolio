@@ -84,19 +84,43 @@
 
 **my_work:** " 
 <ul>
-    <li>Level design TODO: AGREGAR MAS A TODOS ESTOS PUNTOS.</li>
+    <li>Level design. The game has two types of levels:</li>
+    <ul>
+        <li>Runners: Long auto-scrollers where the players have to reach the end. Enemy placement, obstacle cycles and using coins as hints were really important here.</li>
+        <li>Puzzlers: One screen levels where the player has to move objects or press different buttons to reach the end. Figuring out new ways to use old mechanics and combining them in interesting layouts was my focus for these levels.</li>
+    </ul>
     <li>Programming for the following: 
     <ul>
-        <li>Player movement.</li>
-        <li>Pushing and bouncing components.</li>
-        <li>Behavior for basic enemies.</li> 
-        <li>Button and block system.</li> 
-        <li>Save data system.</li>
-        <li>Level unlocks system.</li> 
+        <li>Player movement: horizontal movement and jump mechanics with exported variables to facilitate balancing.</li>
+        <li>Pushing component: Player and enemy behavior is separated into plug-and-play components. Player and enemies can have the push component while objects like springs have the pushable component.</li>
+        <li>Bounce component that applies upward velocity to entities that have the trait. Thanks to the component system we could make springs that bounce on other springs.</li> 
+        <li>Behavior for very basic enemies.</li> 
+        <li>Button and block system, each button activates a set of blocks on the level.</li> 
+        <li>Save data system with JSON to allow for updates that don't break previous savefiles.</li>
+        <li>Level unlocks system with Godot's Resources.</li> 
     </ul>
 </ul>"
 
 ## Bajo Tierra
+
+**small_desc:** "2D Platformer where you can bury on the ground and ceiling to reach new places."
+
+**full_desc:** "Inspired by collect-a-thons, Bajo Tierra is a very short game where you control a weird little bug that can go underground to reach new places.<br><br>I made this game for my thesis where I proposed a set of design patterns that can help explaining the objective of games and evaluated them through this experience."
+
+**my_work:** " 
+<ul>
+    <li>Besides the art, I did everything for this game. A large part of the assets are from the awesome Kenney, I just added colors to them. Please <a href="https://kenney.nl/assets/category:2D">check him out</a></li>
+    <li>Created four versions of the game, each with different tutorials, ways to illustrate mechanics and hints to guide the player through levels.</li>
+    <li>Level design. This game features big levels with a lot of diverging paths. Some of the things I had to take into account while making levels were:</li>
+    <ul>
+        <li>Coin placement to hint players into desirable paths.</li>
+        <li>Use of background elements to hint in the same way.</li>
+        <li>Hiding collectables in places that were fun to reach.</li>
+    </ul>
+    <li>Burying mechanic where the player becomes smaller to enter tight spaces on the ground or ceiling.</li>
+    <li>Playtested this game with 30 players to gather data to analyze the design patterns effects and compare each version of the game.</li> 
+    </ul>
+</ul>"
 
 ## SPELLRAIN
 
