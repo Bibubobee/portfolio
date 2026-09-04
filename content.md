@@ -105,7 +105,7 @@
 
 **small_desc:** "2D Platformer where you can bury on the ground and ceiling to reach new places."
 
-**full_desc:** "Inspired by collect-a-thons, Bajo Tierra is a very short game where you control a weird little bug that can go underground to reach new places.<br><br>I made this game for my thesis where I proposed a set of design patterns that can help explaining the objective of games and evaluated them through this experience."
+**full_desc:** "Inspired by collect-a-thons, Bajo Tierra is a very short game where you control a weird little bug that can go underground to reach new places.<br><br>I made this game for my thesis where I proposed a set of design patterns that explain the objective of games and evaluated them through this experience."
 
 **my_work:** " 
 <ul>
@@ -123,5 +123,25 @@
 </ul>"
 
 ## SPELLRAIN
+
+**small_desc:** "Vampire Survivors-like where you help a little mage restore a small town using spells and upgrading armor."
+
+**full_desc:** "SPELLRAIN is a vampire survivors-like that focuses on diverse spells, armor customization and combining everything to make awesome builds.<br><br>This was the first big game that I worked on and was my first step into truly learning programming for videogames, so I learned a lot from it."
+
+**my_work:** " 
+<ul>
+    <li>Programming for the following:</li>
+    <ul>
+        <li>First time I designed and implemented a round-based progression system.</li>
+        <li>Spell systems: mana, cooldown, casting (with different types) and equipping.</li> 
+        <li>Unique abilities for each set of armor via components</li>
+        <li>Spell upgrades that change stats but also some behavior (e.g: Shoot two at once or make it bigger)</li>
+    </ul>
+    <li>Optimized the game from only supporting 30 entities at once before lagging to over 200 changing enemy collision behavior.</li> 
+    <li>First time designing architecture for use of Godot's Resources in the project.</li>
+    <li>Designed and implemented the architecture for the armor skill system using the components pattern.</li>
+    <li>Designed and programmed the behavior for the game's bosses.</li> 
+    </ul>
+</ul>"
 
 ## Rhythm Match-3

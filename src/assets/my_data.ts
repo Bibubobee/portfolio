@@ -71,10 +71,10 @@ export const my_data = {
     {
       title: "SPELLRAIN",
       small_desc: "Vampire Survivors-like where you help a little mage restore a small town using spells and upgrading armor.",
-      full_desc: "",
+      full_desc: "SPELLRAIN is a vampire survivors-like that focuses on diverse spells, armor customization and combining everything to make awesome builds.<br><br>This was the first big game that I worked on and was my first step into truly learning programming for videogames, so I learned a lot from it.",
       img_src: spellrainCover,
       external_link: "https://store.steampowered.com/app/2242440/SPELLRAIN/",
-      my_work: "",
+      my_work: "<ul>     <li>Programming for the following:</li>     <ul>         <li>First time I designed and implemented a round-based progression system.</li>         <li>Spell systems: mana, cooldown, casting (with different types) and equipping.</li>          <li>Unique abilities for each set of armor via components</li>         <li>Spell upgrades that change stats but also some behavior (e.g: Shoot two at once or make it bigger)</li>     </ul>     <li>Optimized the game from only supporting 30 entities at once before lagging to over 200 changing enemy collision behavior.</li>      <li>First time designing architecture for use of Godot's Resources in the project.</li>     <li>Designed and implemented the architecture for the armor skill system using the components pattern.</li>     <li>Designed and programmed the behavior for the game's bosses.</li>      </ul> </ul>",
       video_url: "https://youtube.com/embed/JzEF_pYofhE?si=ZL3hrjoOp8M8qmXv",
       example_imgs: [],
       gif_for_ex: []
