@@ -82,10 +82,10 @@ export const my_data = {
     {
       title: "Rhythm Match-3",
       small_desc: "Puzzle game inspired by the Puzzle League series where the rhythm of the song clears the lines.",
-      full_desc: "",
+      full_desc: "A puzzle game based on games like Tetris Attack (actually called Panel de Pon) where every four beats the lines are cleared.<br><br>Although short, the game turned out pretty fun and I actually learned a lot about programming monolithic systems for games that have very strict rules.",
       img_src: rm3Cover,
       external_link: "https://slime-team.itch.io/rhythm-match",
-      my_work: "",
+      my_work: "<ul>     <li>Programming for the following:</li>     <ul>         <li>Player Controller: Cursor movement, rotation and switching blocks.</li>         <li>Board simulation to handle positions and rules efficiently. Game is played in the simulation and the result is translated visually so both matrices have to be coordinated at all times.</li>         <li>Block clearing system: blocks are highlighted when a valid combination for clearing them is met. Every four beats all of them are cleared.</li>          <li>Blocks falling after clears and checking if the board has any new possible clears.</li>         <li>Locking blocks: If a block falls in a valid clear combination, then it gets locked, making it impossible to move and increasing the combo.</li>     </ul>     <li>Studied and applied DFS algorithm and variations to find valid clear patterns efficiently.</li>     </ul> </ul>",
       video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=nSkolgMtWz41c3iN",
       example_imgs: [],
       gif_for_ex: []
