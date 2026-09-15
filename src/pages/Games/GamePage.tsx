@@ -17,8 +17,8 @@ function GamePage({ game_data }: { game_data: Game[] }) {
             <div className="game-page">
                 <div className="title-container">
                     <div className="game-title-block">
-                        <h1>{game.title}</h1>
-                        <iframe title='game-video' src={game.video_url + "&controls=0"}></iframe>
+                        <h1 className="game-heading">{game.title}</h1>
+                        <iframe title='game-video' className="image-shadow" src={game.video_url + "&controls=0"}></iframe>
                     </div>
                     <div className="game-intro">
                         <p dangerouslySetInnerHTML={{__html: game.full_desc}}></p>
@@ -26,7 +26,7 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                 </div>
                 <div className="game-body">
                     <div className="my-role">
-                        <h2>My role in this</h2>
+                        <h2 className="game-heading">My role in this</h2>
                         <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
                     </div>
                     <div className="game-images">

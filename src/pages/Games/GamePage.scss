@@ -1,10 +1,10 @@
 .game-page {
     position: relative;
     width: 100%;
-    padding: 0 4rem;
 }
 
 .title-container {
+    padding: 0 4rem;
     height: 30rem;
     display: flex;
 
@@ -32,17 +32,43 @@
     }
 }
 
+.game-heading {
+    background-color: var(--body-text);
+    color: var(--body-text-light);
+    border-radius: 30px 30px 30px 0px;
+    padding: 3px 15px;
+    box-shadow: 6px 6px var(--box-shadow-dark);
+}
+
+.image-shadow {
+    box-shadow: 6px 6px var(--box-shadow-dark);
+}
+
 .game-body {
+    background-color: var(--navbar-color);
     display: flex;
     flex-direction: row;
+    padding: 16px 0;
+
+    h1, h2, p {
+        color: var(--body-text-light);
+    }
 }
 
 .my-role {
+    padding: 0 4rem;
     width: 50%;
     margin-right: 2rem;
+
+    h2 {
+        width: fit-content;
+        background-color: var(--background);
+        color: var(--body-text);
+    }
 }
 
 .game-images {
+    padding: 0 4rem;
     width: 50%;
     height: 100%;
     align-items: start;

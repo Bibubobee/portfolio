@@ -2,14 +2,17 @@ footer {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+    background-color: var(--body-text);
 
     svg {
         width: 1.1em !important;
         height: 1.1em !important;
+        color: var(--body-text-light);
         margin-right: 10px;
     }
 
     p {
+        color: var(--body-text-light);
         font-size: 0.8em;
     }
 }

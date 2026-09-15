@@ -2,6 +2,6 @@
     color: white;
 }
 
-.navigation-bar a:hover {
-    color: var(--light-accent-color);
+.navigation-bar a:hover, .navigation-bar button:hover {
+    transform: scale(1.05);
 }

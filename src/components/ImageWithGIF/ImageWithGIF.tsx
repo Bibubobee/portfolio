@@ -27,10 +27,10 @@ function ImageWithGIF({image, gif}: {image: string, gif: string}) {
     return (
         (gif ? 
         (<div>
-            <img id={image} className="game-img active" alt='game-img' src={image} onMouseEnter={onMouseEnterImg} />
+            <img id={image} className="game-img active image-shadow" alt='game-img' src={image} onMouseEnter={onMouseEnterImg} />
             <img id={gif} className="game-gif inactive" alt='game-gif' src={gif} onClick={openModal} onMouseLeave={onMouseExitGif}></img>
         </div>):
-        <img id={image} className="game-img" alt='game-img' src={image} onClick={openModal}></img>)
+        <img id={image} className="game-img image-shadow" alt='game-img' src={image} onClick={openModal}></img>)
     )
 }
 
