@@ -5,7 +5,7 @@ import './ProjectBlock.scss'
 function ProjectBlock({ projects }: { projects: Game[]}) {
 
     return (
-        <section id="projects" className="projects-block">
+        <section id="projects" className="projects-block container">
             <h1>Personal Projects</h1>
             <div className="projects-grid">
                 {projects.map((project, index) => (

@@ -16,7 +16,6 @@ code {
 .main-container {
   position: relative;
   background-color: var(--background);
-
 }
 
 a {
@@ -28,15 +27,31 @@ a:hover {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, button {
+h1, h2, h3, h4, h5, label, button {
   color: var(--body-text);
-  font-family: "Lato", sans-serif;
+  font-family: "Darumadrop One", "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, a {
+  color: var(--body-text);
+  font-family: "Mada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navigation-bar {
   justify-content: space-between;
   box-shadow: 0px 4px var(--box-shadow-dark);
   background-color: var(--navbar-color);
+
+  p, a {
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
   button {
     font-size: 1.1rem;
@@ -95,8 +110,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .light-mode {
-  background-color: #f8f9fa;
-
   .navigation-bar {
     background-color: #f8f9fa;
   }

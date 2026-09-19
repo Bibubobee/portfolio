@@ -26,7 +26,7 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                 </div>
                 <div className="game-body">
                     <div className="my-role">
-                        <h2 className="game-heading">My role in this</h2>
+                        <h2 className="game-heading">\My role in this/</h2>
                         <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
                     </div>
                     <div className="game-images">
