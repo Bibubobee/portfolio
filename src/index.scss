@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, label, button {
 
 p, a {
   color: var(--body-text);
-  font-family: "Sniglet", system-ui;
+  font-family: "Cause", cursive;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -108,6 +109,10 @@ p, a {
   justify-content: center;
 }
 
+.image-shadow {
+  box-shadow: 6px 6px var(--box-shadow-dark);
+}
+
 .light-mode {
   .navigation-bar {
     background-color: #f8f9fa;
@@ -126,9 +131,9 @@ p, a {
     color: #0d1116;
   }
 
-  .about-section {
-    background-image: url("./assets/images/bg-light.png");
-  }
+  // .about-section {
+  //   background-image: url("./assets/images/bg-light.png");
+  // }
 
   .skills-container svg {
     color: #0d1116;

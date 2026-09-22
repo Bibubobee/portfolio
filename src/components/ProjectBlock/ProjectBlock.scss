@@ -1,8 +1,19 @@
 .projects-block {
     display: flex;
     flex-direction: column;
-    padding: 5% 10%;
+    padding: 0% 10%;
+    padding-bottom: 5%;
+    margin-top: 0;
     text-align: left;
+    background-color: var(--light-accent-color);
+
+    h1 {
+        font-size: 4em;
+    }
+
+    p, a, h1, h2 {
+        color: var(--body-text-light);
+    }
 }
   
 .projects-block .projects-grid {

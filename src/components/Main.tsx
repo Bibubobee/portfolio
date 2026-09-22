@@ -24,8 +24,8 @@ function Main({ data }: { data: Introduction}) {
           <p className="contact" dangerouslySetInnerHTML={{__html: data.contact}} />
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/bibubobee" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://linkedin.com/in/gabriel-ortiz-386a09254" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ function GamePage({ game_data }: { game_data: Game[] }) {
     
     // TODO: Traer componente de video desde web slime
     // TODO: Agregar bloque de tiempo dedicado al proyecto, tamaño del equipo, rol que tuve y link si tiene
+    // TODO: Los links que aparezcan en la sección con el fondo azul deben ser de otro color.
     return (
         <section className="container">
             <div className="game-page">

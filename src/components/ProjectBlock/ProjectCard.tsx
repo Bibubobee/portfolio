@@ -10,7 +10,7 @@ function ProjectCard({ project_data, index }: { project_data: Game, index: numbe
     return (
         <div className="project">
             <div className="img-container">
-                <Link to={"/game/" + index}><img src={img} className="zoom" alt="thumbnail" width="100%"/></Link>
+                <Link to={"/game/" + index}><img src={img} className="zoom image-shadow" alt="thumbnail" width="100%"/></Link>
             </div>
             <div className="game-subtitle-container">
                 <Link to={"/game/" + index}><h2>{title}</h2></Link>

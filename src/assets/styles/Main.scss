@@ -10,13 +10,13 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
-    background-image: url("../images/bg-dark.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    // background-image: url("../images/bg-dark.png");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center;
 
-    p, a {
+    h1, p, a {
         font-family: "Darumadrop One", "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -29,6 +29,10 @@
 
     .contact {
         font-size: large;
+        font-family: "Cause", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .contact a {
