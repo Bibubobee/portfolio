@@ -14,14 +14,15 @@ function Main({ data }: { data: Introduction}) {
           <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
         </div> */}
         <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/bibubobee" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://linkedin.com/in/gabriel-ortiz-386a09254" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
           <h1 dangerouslySetInnerHTML={{__html: data.title}}></h1>
           <p>{data.subtitle}</p>
           <br/>
           <p className="contact" dangerouslySetInnerHTML={{__html: data.contact}} />
+          <br/>
+          <div className="social_icons">
+            <a href="https://github.com/bibubobee" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://linkedin.com/in/gabriel-ortiz-386a09254" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+          </div>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/bibubobee" target="_blank" rel="noreferrer"><GitHubIcon/></a>

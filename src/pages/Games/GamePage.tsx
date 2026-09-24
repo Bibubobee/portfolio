@@ -9,6 +9,7 @@ function GamePage({ game_data }: { game_data: Game[] }) {
     const { game_id } = useParams();
     const idx = game_id ? Number(game_id) : 0;
     const game: Game = game_data[idx];
+    document.title = game.title;
     
     // TODO: Traer componente de video desde web slime
     // TODO: Agregar bloque de tiempo dedicado al proyecto, tamaño del equipo, rol que tuve y link si tiene
