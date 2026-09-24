@@ -35,19 +35,21 @@
 .game-heading {
     background-color: var(--dark-buttons);
     color: var(--body-text-light);
-    border-radius: 30px 30px 30px 0px;
-    padding: 3px 15px;
-    box-shadow: 6px 6px var(--box-shadow-dark);
 }
 
 .game-body {
-    background-color: var(--navbar-color);
+    background-color: var(--light-accent-color);
     display: flex;
     flex-direction: row;
     padding: 16px 0;
 
     h1, h2, p {
         color: var(--body-text-light);
+    }
+
+    .game-heading {
+        background-color: var(--background);
+        color: var(--dark-buttons);
     }
 }
 

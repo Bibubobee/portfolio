@@ -7,6 +7,7 @@ import { Introduction } from "$customTypes/intro.types";
 function Main({ data }: { data: Introduction}) {
   const parser = new DOMParser();
 
+  // TODO: nice to meetcha debe ser un link y ojala arcoiris
   return (
     <div className="container">
       <div id="main" className="about-section">
@@ -14,6 +15,9 @@ function Main({ data }: { data: Introduction}) {
           <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
         </div> */}
         <div className="content">
+          <div id="greet-container">
+            <p id="greeting" className="title-shadow">nice to meetcha!</p>
+          </div>
           <h1 dangerouslySetInnerHTML={{__html: data.title}}></h1>
           <p>{data.subtitle}</p>
           <br/>

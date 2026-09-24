@@ -9,7 +9,7 @@
     align-items: center;
     width: 100%;
     padding: 0px 15%;
-    min-height: 700px;
+    min-height: 600px;
     // background-image: url("../images/bg-dark.png");
     // background-repeat: no-repeat;
     // background-size: cover;
@@ -26,6 +26,21 @@
 .about-section .content {
     text-align: left;
     z-index: 2;
+
+    #greet-container {
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        width: 1020px;
+        height: 60px;
+    }
+    #greeting {
+        background-color: var(--light-accent-color);
+        color: var(--body-text-light);
+        width: fit-content;
+        height: fit-content;
+        align-self: flex-end
+    }
 
     .contact {
         font-size: large;

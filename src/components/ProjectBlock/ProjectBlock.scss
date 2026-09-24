@@ -14,8 +14,18 @@
     p, a, h1, h2 {
         color: var(--body-text-light);
     }
+
+    // TODO: Arreglar circulo en mobile
+    #circle {
+        position: absolute;
+        background-color: var(--light-accent-color);
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        top: 520px;
+    }
 }
-  
+
 .projects-block .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -55,7 +55,9 @@ p, a {
 
   button {
     font-size: 1.1rem;
-    font-family: "Lato", sans-serif;
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-transform: initial;
     padding: 6px 10px;
   }
@@ -68,7 +70,9 @@ p, a {
 .navigation-bar-responsive {
   span, p {
     color: var(--body-text-light);
-    font-family: "Lato", sans-serif;
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 }
 
@@ -110,6 +114,12 @@ p, a {
 }
 
 .image-shadow {
+  box-shadow: 6px 6px var(--box-shadow-dark);
+}
+
+.title-shadow {
+  border-radius: 30px 30px 30px 0px;
+  padding: 3px 15px;
   box-shadow: 6px 6px var(--box-shadow-dark);
 }
 

@@ -6,6 +6,7 @@ function ProjectBlock({ projects }: { projects: Game[]}) {
 
     return (
         <section id="projects" className="projects-block container">
+            <div id="circle"/>
             <h1>Personal Projects</h1>
             <div className="projects-grid">
                 {projects.map((project, index) => (
