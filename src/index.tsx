@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'react-router-dom'
 
+// TODO: Scrollear al top cuando se cambie la página.
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
