@@ -5,9 +5,9 @@ import '../assets/styles/Main.scss';
 import { Introduction } from "$customTypes/intro.types";
 
 function Main({ data }: { data: Introduction}) {
-  const parser = new DOMParser();
+  // const parser = new DOMParser();
 
-  // TODO: nice to meetcha debe ser un link y ojala arcoiris
+  // TODO: nice to meetcha ojala arcoiris
   return (
     <div className="container">
       <div id="main" className="about-section">
@@ -16,7 +16,7 @@ function Main({ data }: { data: Introduction}) {
         </div> */}
         <div className="content">
           <div id="greet-container">
-            <p id="greeting" className="title-shadow">nice to meetcha!</p>
+            <a id="greeting" className="title-shadow" href="https://bupsdev.itch.io/">nice to meetcha!</a>
           </div>
           <h1 dangerouslySetInnerHTML={{__html: data.title}}></h1>
           <p>{data.subtitle}</p>

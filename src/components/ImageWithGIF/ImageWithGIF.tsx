@@ -25,7 +25,7 @@ function ImageWithGIF({image, gif}: {image: string, gif: string}) {
     }
 
     return (
-        (gif ? 
+        (gif !== '' ? 
         (<div>
             <img id={image} className="game-img active image-shadow" alt='game-img' src={image} onMouseEnter={onMouseEnterImg} />
             <img id={gif} className="game-gif inactive" alt='game-gif' src={gif} onClick={openModal} onMouseLeave={onMouseExitGif}></img>

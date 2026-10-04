@@ -1,16 +1,40 @@
+#game-author {
+    width: fit-content;
+    margin-bottom: 1.5rem;
+    transition: transform 0.1s;
+    margin-top: 80px;
+}
+
+#game-author:hover {
+    transform: scale(1.05);
+}
+
+#game-author, #game-author a {
+    font-size: 1.2rem;
+    background-color: var(--light-accent-color);
+    color: var(--body-text-light);
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+}
+
 .game-page {
+    background-color: var(--background);
     position: relative;
     width: 100%;
 }
 
 .title-container {
     padding: 0 4rem;
-    height: 30rem;
+    height: 450px;
     display: flex;
 
-    .game-intro {
+    .description-block {
         width: 50%;
+    }
+
+    .game-intro {
+        width: 100%;
         align-content: center;
+        margin-top: 2rem;
     }
 
     .game-title-block {
@@ -21,14 +45,15 @@
     }
 
     .game-title-block h1 {
-        position: absolute;
-        top: 0;
+        width: fit-content;
     }
 
     .game-title-block iframe {
         width: 100%;
+        max-height: 100%;
         aspect-ratio: 16 / 9;
-        margin: auto 0;
+        margin-top: 20px;
+        overflow: hidden;
     }
 }
 
@@ -66,7 +91,8 @@
 }
 
 .game-images {
-    padding: 0 4rem;
+    margin-top: 6rem;
+    margin-right: 4rem;
     width: 50%;
     height: 100%;
     align-items: start;
@@ -79,20 +105,37 @@
 }
 
 @media screen {
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
+        #game-author {
+            margin: 2rem 0 !important;
+            height: fit-content !important;
+            display: inherit !important;
+            position: inherit !important;
+            
+            a {
+                font-size: 1.2rem;
+            }
+        }
+        
+
         .game-page {
-            padding: 0 2rem;
+            padding: 0 !important;
         }
 
         .title-container {
-            margin-top: 80px;
+            padding: 0 1rem !important;
             height: fit-content;
             display: block;
 
+            .description-block {
+                width: 100% !important;
+            }
+
             .game-intro {
                 width: 100%;
+                margin-top: 0 !important;
                 p {
-                    margin: 1rem 0;
+                    margin-bottom: 1.5rem;
                 }
             }
 
@@ -111,10 +154,13 @@
         }
 
         .my-role {
+            padding: 0 5% !important;
             width: 100%;
         }
   
         .game-images {
+            text-align: center !important;
+            margin-top: 1rem !important;
             width: 100%;
             display: block;
         }

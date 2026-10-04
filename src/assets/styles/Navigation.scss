@@ -1,12 +1,43 @@
-.navigation-bar {
-    align-items: center;
-}
-
-.navigation-bar a {
-    color: white;
-    font-size: x-large;
-}
-
 .navigation-bar a:hover, .navigation-bar button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.navigation-bar {
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px var(--box-shadow-dark);
+  background-color: var(--navbar-color);
+
+  p, a {
+    color: var(--body-text-light);
+    transition: transform 0.1s;
+    font-size: x-large;
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button {
+    font-size: 1.1rem;
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: initial;
+    padding: 6px 10px;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+.navigation-bar-responsive {
+    background-color: var(--light-accent-color);
+
+    span, p {
+        color: var(--body-text-light);
+        font-family: "Darumadrop One", "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 }

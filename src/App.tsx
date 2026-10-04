@@ -26,7 +26,6 @@ function App() {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
       }, []);
 
-    // TODO: Agregar Routing copiando el Main.js del otro portafolio
     return (
     <BrowserRouter>
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>

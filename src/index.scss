@@ -42,40 +42,6 @@ p, a {
   font-style: normal;
 }
 
-.navigation-bar {
-  justify-content: space-between;
-  box-shadow: 0px 4px var(--box-shadow-dark);
-  background-color: var(--navbar-color);
-
-  p, a {
-    font-family: "Darumadrop One", "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  button {
-    font-size: 1.1rem;
-    font-family: "Darumadrop One", "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: initial;
-    padding: 6px 10px;
-  }
-
-  svg {
-    cursor: pointer;
-  }
-}
-
-.navigation-bar-responsive {
-  span, p {
-    color: var(--body-text-light);
-    font-family: "Darumadrop One", "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
 .container {
   margin-top: 64px;
   width: 100%;
@@ -125,7 +91,7 @@ p, a {
 
 .light-mode {
   .navigation-bar {
-    background-color: #f8f9fa;
+    background-color: var(--navbar-color);
   }
 
   p, a, h1, h2, h3, h4, h5, label, button {
@@ -135,10 +101,6 @@ p, a {
   a:hover {
     color: #5000ca;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  }
-
-  .navigation-bar svg {
-    color: #0d1116;
   }
 
   // .about-section {

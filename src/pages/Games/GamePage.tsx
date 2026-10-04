@@ -15,20 +15,24 @@ function GamePage({ game_data }: { game_data: Game[] }) {
     // TODO: Agregar bloque de tiempo dedicado al proyecto, tamaño del equipo, rol que tuve y link si tiene
     // TODO: Los links que aparezcan en la sección con el fondo azul deben ser de otro color.
     return (
-        <section className="container">
+        <div className="container">
             <div className="game-page">
                 <div className="title-container">
                     <div className="game-title-block">
                         <h1 className="game-heading title-shadow">{game.title}</h1>
                         <iframe title='game-video' className="image-shadow" src={game.video_url + "&controls=0"}></iframe>
                     </div>
-                    <div className="game-intro">
-                        <p dangerouslySetInnerHTML={{__html: game.full_desc}}></p>
+                    <div className="description-block">
+                        <p id="game-author" className="title-shadow" dangerouslySetInnerHTML={{__html: game.author}}/>
+                        <div className="game-intro">
+                            <p dangerouslySetInnerHTML={{__html: game.full_desc}}></p>
+                        </div>
                     </div>
+                    
                 </div>
                 <div className="game-body">
                     <div className="my-role">
-                        <h2 className="game-heading title-shadow">\My role in this/</h2>
+                        <h2 className="game-heading title-shadow">My role in this</h2>
                         <p dangerouslySetInnerHTML={{__html: game.my_work}}></p>
                     </div>
                     <div className="game-images">
@@ -39,7 +43,7 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                 </div>
             </div>
             <ImageModal/>
-        </section>
+        </div>
     );
 }
 
