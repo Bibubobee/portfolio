@@ -4,9 +4,21 @@ import clock1Gif from './images/watch-my-clock/WMC1.gif'
 import clock2 from './images/watch-my-clock/wmc2.png'
 import clock2Gif from './images/watch-my-clock/WMC2.gif'
 
+import fish1 from './images/fish-catcher/fish1.png'
+import fish2 from './images/fish-catcher/fish2.png'
+import fish3 from './images/fish-catcher/fish3.png'
+
+import underCover from './images/under-roots/underCover.png'
+import under1 from './images/under-roots/under1.png'
+
 import rm3Cover from './images/rm3_cover.png'
 import spellrainCover from './images/spell_cover.png'
-import lillyWillyCover from './images/lilly_willy_cover.png'
+
+import lillyWillyCover from './images/lilly-and-willy/lilly_willy_cover.png'
+import lilly1 from './images/lilly-and-willy/lilly1.png'
+import lilly1Gif from './images/lilly-and-willy/lilly1.gif'
+import lilly2 from './images/lilly-and-willy/lilly2.png'
+
 import bajoTierraGif from './images/BajoTierra_Cover.gif'
 import bajoTierraCover from './images/BajoTierra_TITLE.png'
 
@@ -34,23 +46,23 @@ export const my_data = {
       title: "Fish Catcher",
       small_desc: "A game based on old LCD games that I'm making to learn about game design for arcade-style games.",
       full_desc: "Remember those old LCD electronic games? Well I fell in love with them after trying out the Game & Watch Gallery series and decided to make this game to learn what makes them so fun and addictive while also being really simple.<br/><br/>Fish Catcher (I really need to think of a new name) is a modern adaptation of that style of gameplay where you catch fish while avoiding hazards and keeping your bucket empty to get the best rank.",
-      img_src: "",
+      img_src: fish2,
       external_link: null,
       my_work: "Besides the art I did everything for this game, which includes:  <ul>     <li>Game Design. A lot of iteration on ideas to find out which ones where the most fun plus easier to do.</li>     <li>Programming of all gameplay systems:      <ul>         <li>Player controls.</li>         <li>Spawning system that takes into account rounds, spawn probabilites and rules to prevent impossible or bothersome situations.</li>          <li>Game balance with custom spreadsheet imports.</li>          <li>Round-based progression with Godot's Resource system.</li>          <li>Unlockables manager that listens to game events and checks if an objective has been completed.</li>         <li>Enemy behavior.</li>     </ul>     <li>UI/UX programming with Godot's Control nodes.</li>     <li>Various polishing such as squish and stretch for movement and UI transition animations</li>     <li>Creation of sounds, some with traditional capturing methods and others with the help of programs such as Famitracker or ChipTone.</li>     <li>Implementation of art and sounds into the Engine.</li> </ul>",
       video_url: "https://youtube.com/embed/vQTBGV1yfN8?si=uv3sAUiJTWW69N8z",
-      example_imgs: [bajoTierraCover, rm3Cover ],
-      gif_for_ex: [bajoTierraGif, ''],
+      example_imgs: [fish1, fish3 ],
+      gif_for_ex: ['', ''],
       author: "<a href='https://www.instagram.com/cata_casata/'>by me and my <span style='text-decoration:underline'>gf</span>!</a>",
     },
     {
       title: "Under Roots",
       small_desc: "3D Action Platformer inspired by the Ape Escape series where you catch robot bugs, cut plants and sneak around to finish levels.",
       full_desc: "Have you ever played Ape Escape? Well, this game is heavily inspired on it. The game features big, beautiful worlds where you play as a frog that captures robot-insects gone rogue.<br/><br/> For this game I took the role of Lead Programmer, so I was in charge of programming and coordinating systems for a team of 2 developers besides myself.",
-      img_src: "",
+      img_src: underCover,
       external_link: null,
       my_work: "<ul>     <li>Worked closely with game designer to make systems that were easy to tweak and quick to expand.</li>     <li>Programming for player character:      <ul>         <li>Player movement that allow easy modifications for designers. Floor, aerial and crouch velocity with their respective parameters, quick turn-arounds, diving, jumping and bouncing.</li>         <li>Componentization of player animation scripts to increase readability and bug tracking.</li>         <li>Bug net gadget: Takes command inputs like those seen in fighting games.</li>          <li>Scissors gadget: Changes player stance to cut plants in different heights.</li>          <li>Radar gadget: Calculates if a bug's position is in the direction that the radar points to and notifies the player via the HUD.</li>         <li>Gadget controller: Orchestrates resources, game objects and HUD elements to equip, activate and notify for animation reproduction.</li>      </ul>     <li>Architecture design and documentation of the following gameplay systems:</li>     <ul>         <li>Save manager.</li>         <li>Gadget system coordination with HUD and resources.</li>         <li>Player states such as crouch, walk, airborne and gadgets.</li>     </ul> </ul>",
       video_url: "https://youtube.com/embed/Qf7V5uSUk7E?si=FwOSYu23HBa181xs",
-      example_imgs: [],
+      example_imgs: [under1],
       gif_for_ex: [],
       author: "<a href='https://www.slimeteam.com/'>by Slime Team!</a>",
     },
@@ -62,8 +74,8 @@ export const my_data = {
       external_link: "https://slime-team.itch.io/lilly-and-willy",
       my_work: "<ul>     <li>Level design. The game has two types of levels:</li>     <ul>         <li>Runners: Long auto-scrollers where the players have to reach the end. Enemy placement, obstacle cycles and using coins as hints were really important here.</li>         <li>Puzzlers: One screen levels where the player has to move objects or press different buttons to reach the end. Figuring out new ways to use old mechanics and combining them in interesting layouts was my focus for these levels.</li>     </ul>     <li>Programming for the following:      <ul>         <li>Player movement: horizontal movement and jump mechanics with exported variables to facilitate balancing.</li>         <li>Pushing component: Player and enemy behavior is separated into plug-and-play components. Player and enemies can have the push component while objects like springs have the pushable component.</li>         <li>Bounce component that applies upward velocity to entities that have the trait. Thanks to the component system we could make springs that bounce on other springs.</li>          <li>Behavior for very basic enemies.</li>          <li>Button and block system, each button activates a set of blocks on the level.</li>          <li>Save data system with JSON to allow for updates that don't break previous savefiles.</li>         <li>Level unlocks system with Godot's Resources.</li>      </ul> </ul>",
       video_url: "",
-      example_imgs: [],
-      gif_for_ex: [],
+      example_imgs: [lilly1, lilly2],
+      gif_for_ex: [lilly1Gif, ''],
       author: "<a href='https://www.slimeteam.com/'>by Slime Team!</a>",
     },
     {
