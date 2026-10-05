@@ -20,7 +20,16 @@ function GamePage({ game_data }: { game_data: Game[] }) {
                 <div className="title-container">
                     <div className="game-title-block">
                         <h1 className="game-heading title-shadow">{game.title}</h1>
-                        <iframe title='game-video' className="image-shadow" src={game.video_url + "&controls=0"}></iframe>
+                        {game.video_url !== "" ?
+                            (<iframe title='game-video' className="image-shadow" src={game.video_url + "&controls=0"}></iframe>) :
+                            (
+                                <div className="construction-warning">
+                                    <div>UNDER CONSTRUCTION</div>
+                                    <p>There should be a video here, i'll get to it soon!</p>
+                                </div>
+                            )
+                        }
+                        
                     </div>
                     <div className="description-block">
                         <p id="game-author" className="title-shadow" dangerouslySetInnerHTML={{__html: game.author}}/>

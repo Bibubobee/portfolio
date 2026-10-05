@@ -1,3 +1,22 @@
+.construction-warning {
+    font-family: "Darumadrop One", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+
+    div {
+        overflow-wrap: break-word;
+        line-height: 4rem;
+        font-size: 4rem;
+    }
+    p {
+        margin-top: 1rem;
+        font-size: medium;
+    }
+}
+
 #game-author {
     width: fit-content;
     margin-bottom: 1.5rem;
@@ -23,8 +42,9 @@
 }
 
 .title-container {
-    padding: 0 4rem;
-    height: 450px;
+    padding: 4rem 4rem;
+    padding-top: 0;
+    height: fit-content;
     display: flex;
 
     .description-block {
@@ -66,7 +86,7 @@
     background-color: var(--light-accent-color);
     display: flex;
     flex-direction: row;
-    padding: 16px 0;
+    padding: 32px 0;
 
     h1, h2, p {
         color: var(--body-text-light);
@@ -88,11 +108,18 @@
         background-color: var(--background);
         color: var(--dark-buttons);
     }
+
+    a {
+        color: var(--body-link-light);
+    }
+    a:hover {
+        color: var(--dark-buttons);
+    }
 }
 
 .game-images {
-    margin-top: 6rem;
-    margin-right: 4rem;
+    margin: auto 4rem;
+    margin-left: 0;
     width: 50%;
     height: 100%;
     align-items: start;
@@ -106,6 +133,10 @@
 
 @media screen {
     @media (max-width: 768px) {
+        .construction-warning div {
+            font-size: 3rem;
+        }
+
         #game-author {
             margin: 2rem 0 !important;
             height: fit-content !important;

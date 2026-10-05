@@ -11,16 +11,24 @@ import fish3 from './images/fish-catcher/fish3.png'
 import underCover from './images/under-roots/underCover.png'
 import under1 from './images/under-roots/under1.png'
 
-import rm3Cover from './images/rm3_cover.png'
-import spellrainCover from './images/spell_cover.png'
-
 import lillyWillyCover from './images/lilly-and-willy/lilly_willy_cover.png'
 import lilly1 from './images/lilly-and-willy/lilly1.png'
 import lilly1Gif from './images/lilly-and-willy/lilly1.gif'
 import lilly2 from './images/lilly-and-willy/lilly2.png'
 
-import bajoTierraGif from './images/BajoTierra_Cover.gif'
-import bajoTierraCover from './images/BajoTierra_TITLE.png'
+import bajoTierraCover from './images/bajo-tierra/BajoTierra_TITLE.png'
+import bajo1Gif from './images/bajo-tierra/bajo1.gif'
+import bajo1 from './images/bajo-tierra/bajo1.png'
+import bajo2Gif from './images/bajo-tierra/bajo2.gif'
+import bajo2 from './images/bajo-tierra/bajo2.png'
+
+import spellrainCover from './images/spell_cover.png'
+import spell1 from './images/spellrain/spell1.jpg'
+import spell2 from './images/spellrain/spell2.jpg'
+
+import rm3Cover from './images/rhythm-match-3/rm3_cover.png'
+import rm1 from './images/rhythm-match-3/rm1.png'
+import rm2 from './images/rhythm-match-3/rm2.png'
 
 // TODO: Agregar link para la catita
 export const my_data = {
@@ -86,8 +94,8 @@ export const my_data = {
       external_link: "https://bupsdev.itch.io/bajo-tierra",
       my_work: "<ul>     <li>Besides the art, I did everything for this game. A large part of the assets are from the awesome Kenney, I just added colors to them. Please <a href='https://kenney.nl/assets/category:2D'>check him out</a></li>     <li>Created four versions of the game, each with different tutorials, ways to illustrate mechanics and hints to guide the player through levels.</li>     <li>Level design. This game features big levels with a lot of diverging paths. Some of the things I had to take into account while making levels were:</li>     <ul>         <li>Coin placement to hint players into desirable paths.</li>         <li>Use of background elements to hint in the same way.</li>         <li>Hiding collectables in places that were fun to reach.</li>     </ul>     <li>Burying mechanic where the player becomes smaller to enter tight spaces on the ground or ceiling.</li>     <li>Playtested this game with 30 players to gather data to analyze the design patterns effects and compare each version of the game.</li>      </ul> </ul>",
       video_url: "",
-      example_imgs: [],
-      gif_for_ex: [],
+      example_imgs: [bajo1, bajo2],
+      gif_for_ex: [bajo1Gif, bajo2Gif],
       author: "<a href='https://bupsdev.itch.io/'>by me!</a>",
     },
     {
@@ -98,8 +106,8 @@ export const my_data = {
       external_link: "https://store.steampowered.com/app/2242440/SPELLRAIN/",
       my_work: "<ul>     <li>Programming for the following:</li>     <ul>         <li>First time I designed and implemented a round-based progression system.</li>         <li>Spell systems: mana, cooldown, casting (with different types) and equipping.</li>          <li>Unique abilities for each set of armor via components</li>         <li>Spell upgrades that change stats but also some behavior (e.g: Shoot two at once or make it bigger)</li>     </ul>     <li>Optimized the game from only supporting 30 entities at once before lagging to over 200 changing enemy collision behavior.</li>      <li>First time designing architecture for use of Godot's Resources in the project.</li>     <li>Designed and implemented the architecture for the armor skill system using the components pattern.</li>     <li>Designed and programmed the behavior for the game's bosses.</li>      </ul> </ul>",
       video_url: "https://youtube.com/embed/JzEF_pYofhE?si=ZL3hrjoOp8M8qmXv",
-      example_imgs: [],
-      gif_for_ex: [],
+      example_imgs: [spell1, spell2],
+      gif_for_ex: ['', ''],
       author: "<a href='https://www.slimeteam.com/'>by Slime Team!</a>",
     },
     {
@@ -110,7 +118,7 @@ export const my_data = {
       external_link: "https://slime-team.itch.io/rhythm-match",
       my_work: "<ul>     <li>Programming for the following:</li>     <ul>         <li>Player Controller: Cursor movement, rotation and switching blocks.</li>         <li>Board simulation to handle positions and rules efficiently. Game is played in the simulation and the result is translated visually so both matrices have to be coordinated at all times.</li>         <li>Block clearing system: blocks are highlighted when a valid combination for clearing them is met. Every four beats all of them are cleared.</li>          <li>Blocks falling after clears and checking if the board has any new possible clears.</li>         <li>Locking blocks: If a block falls in a valid clear combination, then it gets locked, making it impossible to move and increasing the combo.</li>     </ul>     <li>Studied and applied DFS algorithm and variations to find valid clear patterns efficiently.</li>     </ul> </ul>",
       video_url: "https://youtube.com/embed/2x1MaTh1uBk?si=nSkolgMtWz41c3iN",
-      example_imgs: [],
+      example_imgs: [rm1, rm2],
       gif_for_ex: [],
       author: "<a href='https://www.slimeteam.com/'>by Slime Team!</a>",
     }

@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #5000ca;
+  color: var(--dark-buttons);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 

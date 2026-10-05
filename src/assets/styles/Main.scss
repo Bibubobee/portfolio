@@ -56,8 +56,10 @@
     }
 
     .contact a {
-        color: #383938;
         text-decoration: underline;
+    }
+    .contact a:hover {
+        color: var(--light-accent-color)
     }
 
     .social_icons {
