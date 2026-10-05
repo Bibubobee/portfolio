@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.78618373.css",
+    "main.js": "/portfolio/static/js/main.710f103d.js",
+    "static/js/453.79f87206.chunk.js": "/portfolio/static/js/453.79f87206.chunk.js",
+    "static/media/underCover.png": "/portfolio/static/media/underCover.d14d8655eac25b1f505e.png",
+    "static/media/under1.png": "/portfolio/static/media/under1.77a13b6911d589839153.png",
+    "static/media/WMC2.gif": "/portfolio/static/media/WMC2.43fd9fcef2c5ebdf8dda.gif",
+    "static/media/WMC1.gif": "/portfolio/static/media/WMC1.8ba4a980683cde05fbfe.gif",
+    "static/media/lilly1.gif": "/portfolio/static/media/lilly1.ff2af9069557ac9fda3d.gif",
+    "static/media/bajo1.gif": "/portfolio/static/media/bajo1.c2c929705d23872d60ce.gif",
+    "static/media/bajo2.gif": "/portfolio/static/media/bajo2.9b9cbd96dc6c6e8e244f.gif",
+    "static/media/rm3_cover.png": "/portfolio/static/media/rm3_cover.70dc50fb4ba0c9d0e58e.png",
+    "static/media/rm1.png": "/portfolio/static/media/rm1.c53df6e9b08d017425fa.png",
+    "static/media/spell2.jpg": "/portfolio/static/media/spell2.e4f2069d21ddd6a722b8.jpg",
+    "static/media/spell1.jpg": "/portfolio/static/media/spell1.a9c324fbcc8eb5df4013.jpg",
+    "static/media/spell_cover.png": "/portfolio/static/media/spell_cover.9ed29a9003f7b37e64d9.png",
+    "static/media/rm2.png": "/portfolio/static/media/rm2.207743b63e0def9ef72a.png",
+    "static/media/lilly_willy_cover.png": "/portfolio/static/media/lilly_willy_cover.c993bfad2bbdba446c8a.png",
+    "static/media/lilly2.png": "/portfolio/static/media/lilly2.0f3e717b1f087a577ff1.png",
+    "static/media/fish1.png": "/portfolio/static/media/fish1.703e9eaf7ec9ca71f7ff.png",
+    "static/media/lilly1.png": "/portfolio/static/media/lilly1.e4eb944bb976cf0bfafc.png",
+    "static/media/fish2.png": "/portfolio/static/media/fish2.7c5ece0fbf755521b04e.png",
+    "static/media/fish3.png": "/portfolio/static/media/fish3.2a89098d632cd9c8c311.png",
+    "static/media/clock_cover.png": "/portfolio/static/media/clock_cover.b26c4d3df6847bda1b7e.png",
+    "static/media/wmc1.png": "/portfolio/static/media/wmc1.6a787aab2a2f6586c596.png",
+    "static/media/wmc2.png": "/portfolio/static/media/wmc2.97bc495955eebbf68c4e.png",
+    "index.html": "/portfolio/index.html",
+    "main.78618373.css.map": "/portfolio/static/css/main.78618373.css.map",
+    "main.710f103d.js.map": "/portfolio/static/js/main.710f103d.js.map",
+    "453.79f87206.chunk.js.map": "/portfolio/static/js/453.79f87206.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78618373.css",
+    "static/js/main.710f103d.js"
+  ]
+}
